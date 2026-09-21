@@ -27,6 +27,7 @@ This project is directly inspired and architecturally grounded in the following 
 * **Venue & Date**: University of Houston, Houston, United States | 18–20 February 2026
 * **IEEE Publication Details**: `978-1-6654-7761-1/26/$31.00 ©2026 IEEE`
 * **DOI**: [`10.1109/ICAIC67076.2026.11395839`](https://doi.org/10.1109/ICAIC67076.2026.11395839)
+* **Full Paper PDF (Included)**: [`docs/references/IEEE_ICAIC_2026_GenAI_Cybersecurity_Paper.pdf`](./docs/references/IEEE_ICAIC_2026_GenAI_Cybersecurity_Paper.pdf)
 
 ### 🔗 Mapping the Project to the IEEE 5-Phase Reengineering Model:
 According to **Table I** of the IEEE paper (*"A five-phase model for GenAI-enabled cybersecurity process reengineering"*):
@@ -124,44 +125,35 @@ flowchart TD
 
 ---
 
-## 📸 Application Preview & User Interface
+## 📸 Application Screenshots & User Interface
 
-```
-+--------------------------------------------------------------------------------------------------------+
-| 🛡️ AI-Powered Cybersecurity Policy Assistant              [Server: OK] [Preset: MFA Policy v]          |
-+--------------------------------------------------------------------------------------------------------+
-|                                                                                                        |
-| 1. POLICY DOCUMENT INPUT                                                                               |
-| [ Paste Text ] [ Upload PDF/TXT ]           Words: 226 | Chars: 1723 | Est. Read: 2 min               |
-| +----------------------------------------------------------------------------------------------------+ |
-| | CYBERSECURITY POLICY: REMOTE ACCESS & MULTI-FACTOR AUTHENTICATION (MFA)                            | |
-| | 1. PURPOSE & SCOPE: Defines mandatory controls for remote workers...                               | |
-| | 2. MANDATORY REQUIREMENTS: All logins must use FIDO2 hardware keys or authenticator apps (TOTP)... | |
-| +----------------------------------------------------------------------------------------------------+ |
-|                                                                        [ Summarize Policy (AI) ⚡ ]     |
-|                                                                                                        |
-| 2. EXECUTIVE SUMMARY CARDS                                                                             |
-| +-----------------------------------+ +-----------------------------------+ +-------------------------+ |
-| | 📄 Policy Overview                | | 📌 Key Requirements               | | 🚫 Prohibited Rules   | |
-| | Mandates secure remote connection | | • MFA mandatory across all logins | | • SMS OTP forbidden   | |
-| | and hardware token verification.  | | • Encrypted TLS 1.3 VPN tunnel    | | • No personal devices | |
-| +-----------------------------------+ +-----------------------------------+ +-------------------------+ |
-| +-----------------------------------+ +-----------------------------------+                            |
-| | ✅ Employee Action Checklist      | | ⚠️ Non-Compliance Risks           |                            |
-| | • Enroll TOTP authenticator app   | | • Account takeover & lateral move |                            |
-| | • Report lost devices in 15 mins  | | • Disciplinary revocation of IAM  |                            |
-| +-----------------------------------+ +-----------------------------------+                            |
-|                                                                                                        |
-| 3. GROUNDED Q&A CHATBOT                              4. PERSONA-SPECIFIC GUIDANCE                      |
-| +--------------------------------------------------+ +-----------------------------------------------+ |
-| | 🤖 Bot: Ask me anything about this policy.       | | [ Employee ] [ Manager ] [ IT Admin ] [ SOC ] | |
-| | 👤 User: Is SMS authentication allowed?          | | --------------------------------------------- | |
-| | 🤖 Bot: No. SMS-based authentication is strictly | | • Action Checklist:                           | |
-| |    prohibited due to SIM-swapping risks.         | |   - Provision FIDO2 security keys             | |
-| |    [🛡️ Grounded in Policy]                       | |   - Monitor auth logs for impossible travel   | |
-| +--------------------------------------------------+ +-----------------------------------------------+ |
-+--------------------------------------------------------------------------------------------------------+
-```
+### 1. Main Dashboard & Policy Input View
+> *Interactive policy editor with live character/word metric counters, quick demo preset loaders, and backend status indicator.*
+![Main Dashboard & Policy Input](./docs/screenshots/01_dashboard_input.png)
+
+---
+
+### 2. In-Memory PDF Parsing & Document Loading
+> *Automatic extraction of text from official policy documents (.pdf / .txt) via the server's streaming parser engine.*
+![PDF Policy Loaded](./docs/screenshots/02_policy_pdf_loaded.png)
+
+---
+
+### 3. AI Policy Executive Summary (5 Structured Cards)
+> *Google Gemini Generative AI synthesis categorizing policy into Overview, Requirements, Prohibited Rules, Actions, and Non-Compliance Risks.*
+![AI Policy Executive Summary](./docs/screenshots/03_executive_summary.png)
+
+---
+
+### 4. Grounded Policy Q&A Chatbot (Anti-Hallucination Mode)
+> *Interactive conversational agent answering questions with strict mathematical grounding to the uploaded policy document.*
+![Grounded Policy Q&A Chatbot](./docs/screenshots/04_grounded_chatbot.png)
+
+---
+
+### 5. Role-Based Compliance Guidance (Persona Checklists)
+> *Persona-specific action checklists and priority focus areas for Employees, Managers, IT Administrators, and SOC Security Officers.*
+![Role-Based Compliance Guidance](./docs/screenshots/05_role_based_guidance.png)
 
 ---
 
