@@ -12,7 +12,7 @@
 | **Student Name** | **Roshwyn Fernandes** |
 | **Roll Number** | **5024120** |
 | **Class & Semester** | **TY IT - Semester V** |
-| **Domain** | **Artificial Intelligence / Cybersecurity Process Reengineering** |
+
 
 
 ---
