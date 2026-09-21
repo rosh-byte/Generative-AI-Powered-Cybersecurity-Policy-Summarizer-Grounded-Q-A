@@ -13,7 +13,7 @@
 | **Roll Number** | **5024120** |
 | **Class & Semester** | **TY IT - Semester V** |
 | **Domain** | **Artificial Intelligence / Cybersecurity Process Reengineering** |
-| **Implementation Scope** | **LO 6.1 (Generative AI Integration) & LO 6.2 (Prompt Engineering & Grounding)** |
+
 
 ---
 
