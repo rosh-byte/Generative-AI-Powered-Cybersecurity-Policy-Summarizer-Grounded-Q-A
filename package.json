@@ -1,0 +1,21 @@
+{
+  "name": "ai-cybersecurity-policy-assistant",
+  "version": "1.0.0",
+  "description": "AI-Powered Cybersecurity Policy Assistant Using Generative AI (College AI Project LO 6.1 & LO 6.2)",
+  "scripts": {
+    "server": "cd server && npm start",
+    "client": "cd client && npm run dev",
+    "install:all": "cd server && npm install && cd ../client && npm install"
+  },
+  "keywords": [
+    "cybersecurity",
+    "generative-ai",
+    "gemini-api",
+    "policy-summarizer",
+    "chatbot",
+    "react",
+    "express"
+  ],
+  "author": "",
+  "license": "MIT"
+}

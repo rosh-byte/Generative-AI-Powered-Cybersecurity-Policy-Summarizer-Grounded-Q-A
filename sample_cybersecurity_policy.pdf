@@ -1,0 +1,121 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1871 >>
+stream
+BT
+/F1 14 Tf
+50 740 Td
+(ENTERPRISE CYBERSECURITY & ACCESS GOVERNANCE POLICY) Tj
+ET
+BT
+/F1 11 Tf
+50 710 Td
+(1. PURPOSE & SCOPE) Tj
+ET
+BT
+/F2 9 Tf
+60 690 Td
+(This policy defines mandatory security requirements for corporate network access, data handling,) Tj
+ET
+BT
+/F2 9 Tf
+60 675 Td
+(and remote device management across all internal departments and third-party contractors.) Tj
+ET
+BT
+/F1 11 Tf
+50 650 Td
+(2. MANDATORY REQUIREMENTS & AUTHENTICATION) Tj
+ET
+BT
+/F2 9 Tf
+60 630 Td
+(- Multi-Factor Authentication \(MFA\) is strictly mandatory for all employees and system administrators.) Tj
+ET
+BT
+/F2 9 Tf
+60 615 Td
+(- Acceptable MFA methods include hardware security keys \(FIDO2\) and authenticator apps \(TOTP\).) Tj
+ET
+BT
+/F2 9 Tf
+60 600 Td
+(- SMS-based OTP verification is prohibited for administrative roles due to SIM-swapping vulnerabilities.) Tj
+ET
+BT
+/F2 9 Tf
+60 585 Td
+(- Passwords must be at least 16 characters in length and updated every 90 days.) Tj
+ET
+BT
+/F1 11 Tf
+50 560 Td
+(3. SECURE REMOTE ACCESS & ENCRYPTION) Tj
+ET
+BT
+/F2 9 Tf
+60 540 Td
+(- All remote connections must traverse the corporate encrypted VPN tunnel with TLS 1.3 enabled.) Tj
+ET
+BT
+/F2 9 Tf
+60 525 Td
+(- Unmanaged personal devices \(BYOD\) are strictly forbidden from directly connecting to production servers.) Tj
+ET
+BT
+/F2 9 Tf
+60 510 Td
+(- Confidential data stored on laptops or portable drives must use AES-256 full-disk encryption.) Tj
+ET
+BT
+/F1 11 Tf
+50 485 Td
+(4. INCIDENT REPORTING & COMPLIANCE ACTIONS) Tj
+ET
+BT
+/F2 9 Tf
+60 465 Td
+(- Any suspected credential compromise or phishing attempt must be reported to SOC within 15 minutes.) Tj
+ET
+BT
+/F2 9 Tf
+60 450 Td
+(- Employees must complete mandatory bi-annual security awareness and phishing simulations.) Tj
+ET
+BT
+/F2 9 Tf
+60 435 Td
+(- Failure to adhere to this policy will result in immediate revocation of access privileges.) Tj
+ET
+
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000002174 00000 n 
+0000002249 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+2319
+%%EOF

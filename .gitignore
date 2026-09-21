@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment variables (CRITICAL: Never commit API keys)
+.env
+server/.env
+client/.env
+
+# Build outputs
+dist/
+client/dist/
+build/
+
+# Logs & temp files
+*.log
+npm-debug.log*
+server/uploads/*
+!server/uploads/.gitkeep
+
+# IDE & OS files
+.DS_Store
+.vscode/
+.idea/

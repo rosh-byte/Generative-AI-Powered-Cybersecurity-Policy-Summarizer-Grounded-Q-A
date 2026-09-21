@@ -1,0 +1,31 @@
+================================================================================
+ENTERPRISE CYBERSECURITY INCIDENT RESPONSE & BREACH NOTIFICATION POLICY
+Document ID: SEC-POL-2026-V3 | Classification: Restricted / Internal Use
+================================================================================
+
+1. PURPOSE & OBJECTIVE
+This policy outlines mandatory procedures for detecting, containing, analyzing, 
+and reporting cybersecurity incidents, unauthorized system intrusions, ransomware 
+attacks, and confidential data breaches.
+
+2. MANDATORY INCIDENT TRIAGE & ESCALATION
+2.1 All employees who detect anomalous network activity, ransomware screens, or 
+    phishing messages MUST notify the Security Operations Center (SOC) within 15 minutes.
+2.2 The Lead Incident Handler must classify incidents within 30 minutes of notification:
+    - Severity 1 (Critical): Active data exfiltration or operational disruption.
+    - Severity 2 (High): Compromised domain administrator credential.
+    - Severity 3 (Medium): Isolated endpoint malware infection.
+
+3. CONTAINMENT & FORENSICS PROTOCOLS
+3.1 Network Isolation: Affected workstations and servers must be immediately 
+    isolated from the corporate LAN/VLAN without powering off the machines to preserve RAM forensics.
+3.2 Evidence Preservation: System memory dumps, firewall logs, and packet captures 
+    must be cryptographically hashed (SHA-256) and archived securely.
+3.3 Credential Revocation: All Active Directory and Cloud IAM credentials associated 
+    with compromised accounts must be revoked and regenerated immediately.
+
+4. USER RESPONSIBILITIES & COMPLIANCE
+4.1 Employees are strictly forbidden from attempting independent investigation or 
+    communicating incident details to media or external parties without Legal approval.
+4.2 IT Administrators must maintain immutable daily off-site backups with air-gapped protection.
+4.3 Non-compliance with incident reporting timelines may lead to disciplinary review and regulatory fines.
